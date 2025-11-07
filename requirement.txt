@@ -1,0 +1,9 @@
+# Install dependencies
+pip install tensorflow==2.20.0 streamlit nltk numpy scikit-learn
+python -m nltk.downloader punkt punkt_tab wordnet
+
+# Train the model
+python train_chatbot.py
+
+# Launch chatbot
+streamlit run app.py
